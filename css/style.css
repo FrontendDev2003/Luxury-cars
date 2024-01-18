@@ -1,0 +1,774 @@
+@font-face {
+  font-family: "BeVietnam-Bold";
+  src: url("font/BeVietnam-Bold.ttf");
+}
+
+li{
+	list-style: none;
+}
+
+a{
+  color: inherit;
+}
+
+body{
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  background-color: #000;
+}
+
+.container{
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* header */
+
+.header{
+  margin-top: 40px;
+  padding-bottom: 107px;
+  font-weight: 600;
+}
+
+.header-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list{
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.nav-link{
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  display: inline-block;
+}
+
+.nav-link:hover{
+  transform: scale(1.1);
+  text-shadow: 1px 1px 3px #fff;
+}
+
+.nav{
+  margin-left: auto;
+  margin-right: 72px;
+}
+
+.nav-btn {
+  width: 40px;
+  height: 40px;
+  display: none;
+}
+
+.header-btn{
+  padding: 12px 24px;
+  background-color: #EE8313;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+.header-btn:hover{
+  transform: scale(1.1);
+  box-shadow: 1px 1px 3px #EE8313;
+}
+
+/* cars */
+
+.cars{
+  padding-bottom: 120px;
+  position: relative;
+}
+
+.cars-wrapper{
+  display: flex;
+}
+
+.cars-info{
+  max-width: 474px;
+}
+
+.cars-title{
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 64px;
+  margin-top: 60px;
+}
+
+.cars-text{
+  font-size: 17px;
+  line-height: 28px;
+  margin-top: 32px;
+}
+
+.cars-img{
+  position: absolute;
+  right: 0;
+  max-width: 70%;
+}
+
+.cars-btn{
+  display: flex;
+  gap: 35px;
+  margin-top: 48px;
+}
+
+.cars-btn-one{
+  font-weight: 600;
+  line-height: 24px;
+  background-color: #EE8313;
+  padding: 12px 24px;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+.cars-btn-one:hover{
+  transform: scale(1.1);
+  box-shadow: 1px 1px 3px #EE8313;
+}
+
+.cars-btn-two{
+  font-weight: 600;
+  line-height: 24px;
+  background-color: #000;
+  color: #EE8313;
+  padding: 12px 24px;
+  border: 1px solid #EE8313;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+.cars-btn-two:hover{
+  transform: scale(1.1);
+  box-shadow: 1px 1px 3px #EE8313;
+}
+
+.cars-numbers{
+  display: flex;
+  font-family: BeVietnam, sans-serif;
+  margin-top: 40px;
+  gap: 40px;
+  justify-content: flex-start;
+}
+
+.cars-numbers-block{
+  display: flex;
+  align-items: center;
+}
+
+.cars-block-numeric{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  margin-right: 16px;
+  letter-spacing: -0.164px;
+}
+
+.cars-block-text{
+  font-weight: 600;
+  line-height: 24px;
+}
+
+/* rent */
+
+.rent{
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+
+.rent-title{
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 52px;
+  text-align: center;
+}
+
+.rent-cards{
+  margin-top: 40px;
+  grid-template-columns: repeat(2, minmax(500px, 1fr));
+  gap: 32px;
+  display: grid;
+  
+}
+
+.rent-card{
+  height: 524px;
+  position: relative;
+  max-width: 584px;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+.rent-card:nth-child(1){
+  background: url(../img/rent/supercars.png);
+}
+
+.rent-card:nth-child(2){
+  background: url(../img/rent/sportcars.png);
+}
+
+.rent-card:nth-child(3){
+  background: url(../img/rent/suv.png);
+}
+
+.rent-card:nth-child(4){
+  background: url(../img/rent/supersuv.png);
+}
+
+.rent-card-subtitle{
+  margin-top: 48px;
+  margin-left: 48px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 52px;
+
+}
+
+.rent-card-link{
+  position: absolute;
+  margin-bottom: 48px;
+  margin-right: 90px;
+  bottom: 0;
+  right: 0;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  display: inline-block;
+}
+
+.cars-card-link:hover{
+  transform: scale(1.1);
+  box-shadow: 1px 1px 3px #fff;
+}
+
+.rent-card-img{
+  position: absolute;
+  margin-bottom: 42px;
+  margin-right: 58px;
+  bottom: 0;
+  right: 0;
+}
+
+/* services */
+
+.services{
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+
+.services-title{
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.services-cards{
+  margin-top: 66px;
+  grid-template-columns: repeat( 3, 1fr);
+  gap: 24px;
+  display: grid;
+}
+
+.services-card-subtitle{
+  margin-top: 24px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.services-card-text{
+  margin-top: 16px;
+  line-height: 28px;
+  opacity: 0.800000011920929;
+}
+
+/* destination */
+
+.destination{
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+
+.destination-title{
+  text-align: center;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.destination-cards{
+  margin-top: 40px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  display: grid;
+  
+}
+
+.destination-card{
+  border: 1px solid #171717;
+  background-color: #131313;
+  padding-bottom: 24px;
+}
+
+.destination-card-title{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-top: 24px;
+  text-align: left;
+  margin-left: 24px;
+}
+
+.destination-card-text{
+  line-height: 28px;
+  margin-top: 10px;
+  text-align: left;
+  margin-left: 24px;
+  opacity: 0.800000011920929;
+}
+
+.destination-card-price{
+  display: flex;
+  margin-top: 25px;
+}
+
+.destination-card-price-icon{
+  margin-left: 24px;
+  margin-right: 12px;
+}
+
+.destination-card-price p{
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.destination-car-link{
+  display: inline-block;
+  color: #EE8313;
+  line-height: 28px;
+  margin-top: 17px;
+  margin-left: 24px;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+.destination-car-link:hover{
+  transform: scale(1.1);
+  text-shadow: 2px 2px 5px #EE8313;
+}
+
+/* location */
+
+.location{
+  margin-top: 102px;
+  padding-bottom: 102px;
+  text-align: center;
+}
+
+.location-title{
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.location-img{
+  margin-top: 40px;
+}
+
+/* footer */
+
+.footer{
+  background-color: #1F1905;
+  padding-top: 80px;
+}
+
+.footer-main{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo{
+  display: flex;
+}
+.footer-logo p{
+  margin-left: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-text{
+  margin-top: 64px;
+  font-size: 18px;
+  line-height: 32px;
+  max-width: 235px;
+}
+
+.footer-info{
+  display: flex;
+  gap: 67px;
+  margin-left: auto;
+  margin-right: 54px;
+}
+
+.footer-subtitle{
+  margin-top: 40px;
+  font-size: 18px;
+  font-family: Manrope, sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.footer-list-link{
+  line-height: 20px;
+  opacity: 0.8;
+  display: inline-block;
+  margin-top: 28px;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+.footer-list-link:hover{
+  transform: scale(1.1);
+  text-shadow: 2px 2px 5px #fff;
+}
+
+.footer-list li:first-child{
+  margin-top: 32px;
+  line-height: 20px;
+  opacity: 0.8;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+.footer-list li:first-child:hover{
+  transform: scale(1.1);
+  text-shadow: 2px 2px 5px #fff;
+}
+
+
+.footer-social{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.footer-social-img{
+  max-width: 100%;
+  width: 120px;
+  height: 80px;
+}
+
+.footer-bottom{
+  background: #EE8313;
+  padding: 20px 0;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 66px;
+}
+
+.img-mobile{
+  display: none;
+}
+
+/* media */
+
+@media (max-width: 1130px){
+
+  /* cars */
+
+  .cars-wrapper{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .cars-info{
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .cars{
+    padding-bottom: 30px;
+  }
+
+  .cars-btn,
+  .cars-numbers{
+    justify-content: center;
+  }
+
+  .cars-img{
+    display: none;
+  }
+
+  .img-mobile{
+    display: block;
+    margin: 20px auto 0 auto;
+  }
+
+  /* rent */
+  .rent-cards{
+    grid-template-columns:repeat(1, minmax(320px, 1fr));
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 900px){
+
+  /* footer */
+
+  .footer{
+    padding-top: 40px;
+  }
+
+  .footer-main{
+    display: block;
+  }
+
+  .footer-logo{
+    justify-content: center;
+  }
+
+  .footer-subtitle{
+    margin-top: 30px;
+  }
+
+  .footer-text{
+    margin: 20px auto 0 auto;
+    text-align: center;
+  }
+
+  .footer-info{
+    margin: 0 auto;
+    gap: 37px;
+    justify-content: center;
+  }
+
+  .footer-social{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-bottom {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 860px){
+
+  /* header */
+
+  .header{
+    margin-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  .nav-list {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: #EE8313;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: start;
+    transform: translateY(-100%);
+    transition: 0.3s ease;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-top: 42px;
+    gap: 25px;
+    z-index: 2;
+  }
+
+  .nav-btn {
+    display: block;
+    position: relative;
+    z-index: 9;
+  }
+
+  .nav-open .nav-list {
+    transform: translateY(0);
+  }
+
+  .header-wrapper div:nth-child(1) {
+    order: 1;
+  }
+  .header-btn{
+    padding: 8px 14px;
+    font-size: 14px;
+    margin-right: 15px;
+  }
+  .nav{
+    margin-left: auto;
+    margin-right: 12px;
+  }
+
+  /* services */
+  .services-cards {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 23px;
+  }
+
+  /* destination */
+
+  .destination-cards {
+    margin-top: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  /* location */
+
+  .location {
+    margin-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .location-title{
+    font-size: 34px;
+  }
+
+  .location-img {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 570px) {
+  /* destination */
+
+  .destination-card-price-icon {
+    display: none;
+  }
+
+  .destination-card-price p {
+    margin-left: 24px;
+  }
+}
+
+@media (max-width: 530px){
+  /* rent */ 
+  .rent-card-one,
+  .rent-card-two,
+  .rent-card-three,
+  .rent-card-four{
+    height: 474px;
+  }
+
+  .rent{
+    margin-top: 0;
+    padding-bottom: 20px;
+  }
+
+  .rent-title{
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  /* cars */
+
+  .cars-title{
+    font-size: 34px;
+    line-height: 45px;
+    margin-top: 20px;
+  }
+
+  .cars-text{
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 15px;
+  }
+
+  .cars-btn{
+    flex-direction: column;
+    margin-top: 22px;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 18px;
+  }
+
+  .cars-btn-one{
+    line-height: 22px;
+    padding: 10px 24px;
+  }
+  
+  .cars-btn-two{
+    line-height: 22px;
+    padding: 10px 24px;
+  }
+
+  .cars-numbers{
+    margin-top: 20px;
+    gap: 20px;
+  }
+
+  .cars-block-numeric{
+    font-size: 16px;
+    line-height: 22px;
+    margin-right: 8px;
+  }
+
+  /* services */
+
+  .services{
+    margin-top: 0;
+    padding-bottom: 20px;
+  }
+
+  .services-title{
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  /* destination */
+
+  .destination-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .destination-card-img {
+    width: 525px;
+  }
+
+  .destination-title{
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  .destination{
+    margin-top: 0;
+    padding-bottom: 20px;
+  }
+
+  /* footer */
+  .footer-info{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .footer-list-link{
+    margin-top: 15px;
+  }
+
+  .footer-list li:first-child{
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 430px){
+  /* services */
+  .services-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
